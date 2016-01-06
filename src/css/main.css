@@ -58,3 +58,12 @@ img.background {
     font-size: 32px;
     color: #293037;
 }
+
+.check-back {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 15%;
+    margin-top: 50%;
+    margin-left: 10px;
+    color: white;
+    font-family: PegsannaHMK;
+}
