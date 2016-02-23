@@ -6,6 +6,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
+    font-family: Open Sans, Arial, sans-serif;
 }
 
 img.background {
@@ -45,6 +46,10 @@ img.background {
     display: block;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Playfair Display, serif;
+}
+
 .headline {
     text-align: center;
     font-family: PegsannaHMK;
@@ -79,7 +84,7 @@ img.background {
 }
 
 .well-container {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .carousel {
