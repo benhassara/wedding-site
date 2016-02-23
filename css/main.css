@@ -81,3 +81,19 @@ img.background {
 .well-container {
     background-color: rgba(255, 255, 255, 0.7);
 }
+
+.carousel {
+    max-height: 342px;
+}
+
+.item img {
+    max-height: 342px;
+}
+
+#hie-map, #spring-map {
+    min-height: 300px;
+    min-width: 300px;
+    height: 100%;
+    width: 100%;
+    margin-top: 1em;
+}
