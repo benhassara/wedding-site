@@ -6,6 +6,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-color: #464646;
+    font-family: Open Sans, Arial, sans-serif;
 }
 
 img.background {
@@ -33,6 +34,7 @@ img.background {
 
 .nav ul li {
     margin-top: 8px;
+    font-family: PegsannaHMK;
 }
 
 .nav ul:last-child {
@@ -45,18 +47,31 @@ img.background {
     display: block;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: Playfair Display, serif;
+}
+
 .headline {
     text-align: center;
     font-family: PegsannaHMK;
     font-size: 72px;
     color: #293037;
+    text-shadow: 1px 1px 1px #c5b358;
 }
 
 .date {
     text-align: center;
     font-family: PegsannaHMK;
     font-size: 32px;
-    color: #293037;
+    /*color: #293037;*/
+    color: #c5b358;
+    text-shadow: 1px 1px 1px #293037;
+}
+
+.countdown {
+    color: #c5b358;
+    text-shadow: 0px 1px 1px #293037;
+    font-size: 18px;
 }
 
 .check-back {
@@ -66,4 +81,34 @@ img.background {
     margin-left: 10px;
     color: white;
     font-family: PegsannaHMK;
+}
+
+.navbar {
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.navbar-brand {
+    font-family: PegsannaHMK;
+    padding-top: 18px;
+}
+
+.well-container {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.carousel {
+    max-height: 342px;
+}
+
+.item img {
+    max-height: 342px;
+}
+
+#hie-map, #spring-map {
+    min-height: 300px;
+    min-width: 300px;
+    height: 100%;
+    width: 100%;
+    margin-top: 1em;
 }

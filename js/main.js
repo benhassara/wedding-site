@@ -1,5 +1,3 @@
-// add scripts
-
 $(document).on('ready', function() {
   var weddingDay = new Date('July 10, 2016');
   var today = new Date();
