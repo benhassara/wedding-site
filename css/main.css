@@ -34,6 +34,7 @@ img.background {
 
 .nav ul li {
     margin-top: 8px;
+    font-family: PegsannaHMK;
 }
 
 .nav ul:last-child {
@@ -55,13 +56,22 @@ h1, h2, h3, h4, h5, h6 {
     font-family: PegsannaHMK;
     font-size: 72px;
     color: #293037;
+    text-shadow: 1px 1px 1px #c5b358;
 }
 
 .date {
     text-align: center;
     font-family: PegsannaHMK;
     font-size: 32px;
-    color: #293037;
+    /*color: #293037;*/
+    color: #c5b358;
+    text-shadow: 1px 1px 1px #293037;
+}
+
+.countdown {
+    color: #c5b358;
+    text-shadow: 0px 1px 1px #293037;
+    font-size: 18px;
 }
 
 .check-back {

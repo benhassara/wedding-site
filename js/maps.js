@@ -32,10 +32,6 @@ function createMaps() {
             currentInfo = springInfo;
         }
 
-        console.log(currentMap);
-        console.log(currentInfo);
-
-
         if (status === google.maps.places.PlacesServiceStatus.OK) {
             var marker = new google.maps.Marker({
                 map: currentMap,
