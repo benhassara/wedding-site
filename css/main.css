@@ -115,3 +115,14 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
     margin-top: 1em;
 }
+
+.social-links {
+    /*color: #DDBC0A;*/
+    color: #b09608;
+    padding: 1em;
+}
+
+.social-links:hover {
+    /*color: #b09608;*/
+    color: #DDBC0A;
+}
