@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
     max-height: 342px;
 }
 
-#hie-map, #spring-map {
+#hie-map, #spring-map, #lingrow-map {
     min-height: 300px;
     min-width: 300px;
     height: 100%;
@@ -125,4 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 .social-links:hover {
     /*color: #b09608;*/
     color: #DDBC0A;
+}
+
+.logo-lingrow {
+    max-height: 200px;
 }
