@@ -1,7 +1,6 @@
 // *** dependencies *** //
 
 var gulp = require('gulp');
-var jshint = require('gulp-jshint');
 var connect = require('gulp-connect');
 var uglify = require('gulp-uglify');
 var minifyCSS = require('gulp-minify-css');
@@ -35,12 +34,6 @@ gulp.task('html', function () {
 gulp.task('css', function () {
   gulp.src('./css/*.css')
     .pipe(connect.reload());
-});
-
-gulp.task('jshint', function() {
-  return gulp.src('./js/*.js')
-    .pipe(jshint())
-    .pipe(jshint.reporter('jshint-stylish'));
 });
 
 gulp.task('watch', function() {
@@ -79,10 +72,8 @@ gulp.task('default', ['watch', 'connect']);
 gulp.task('build', function() {
   runSequence(
     ['clean'],
-    ['jshint'],
     ['minify-css'],
     ['minify-js'],
-    ['copy-html-files'],
-    ['connectDist']
+    ['copy-html-files']
   );
 });
